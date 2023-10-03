@@ -167,13 +167,16 @@ input[type='text'] {
 .footer {
   width: 95%;
   height: 10vh;
-  border: 2px solid black;
+ 
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   bottom: 0;
   position: fixed;
+}
+.footer {
+  border-top: none;
 }
 
 .footer-item {
